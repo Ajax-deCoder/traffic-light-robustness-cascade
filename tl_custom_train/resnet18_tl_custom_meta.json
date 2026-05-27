@@ -1,0 +1,23 @@
+{
+  "class_to_idx": {
+    "red": 0,
+    "green": 1
+  },
+  "idx_to_class": {
+    "0": "red",
+    "1": "green"
+  },
+  "input_size": 96,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "weights_path": "resnet18_tl_custom_state_dict.pt",
+  "notes": "0=red, 1=green"
+}
